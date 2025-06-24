@@ -1,0 +1,298 @@
+:root {
+    /* COLORS */
+    --bg-color: #0F0F0F;
+    --icon-hover: #3D3D3D;
+    --icon-color: #FFFF;
+    --icon-hover-2: #3F3F3F;
+}
+
+body {
+    background-color: #0f0f0f;
+    font-family: sans-serif;
+}
+
+#header-nav {
+    height: 56px;
+}
+
+#navbar {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+}
+
+#logo-menu {
+    display: flex;
+    gap: 30px;
+}
+
+#menu-icon {
+    font-size: 24px;
+    color: #ffff;
+}
+
+#logo {
+    height: 20px;
+    width: 90px;
+}
+
+#search {
+    display: flex;
+    gap: 0;
+}
+
+#search-input {
+    height: 40px;
+    width: 348px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 20px;
+    background-color: #0f0f0f;
+    border: 1px solid #303030;
+    font-size: 16px;
+    color: #ffff;;
+}
+
+#search-btn {
+    height: 40px;
+    width: 50px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 16px;
+    background-color: #303030;
+    border: 1px solid #424242;
+    border-left: none;
+    color: #ffff;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #424242;
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#create-icon {
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #303030;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#create-icon:hover {
+    background-color: #424242;
+}
+
+#create-icon i {
+    color: #ffff;
+}
+
+#create-icon span {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#bell-icon {
+    cursor: pointer;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+#bell-icon:hover {
+    background-color: #424242;
+}
+
+.myimage {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#home {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#video {
+    width: 952px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#video iframe {
+    border-radius: 20px;
+}
+
+#article-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#video-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+#video-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#channel {
+    display: flex;
+    gap: 15px;
+}
+
+#channel-name {
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    font-size: 16px;
+    color: #ffff;
+    font-weight: 600;
+}
+
+#subscribers {
+    font-size: 13px;
+    color: #c9c9c9;
+}
+
+#member-btn {
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #303030;
+    color: #ffff;
+}
+
+#member-btn:hover {
+    background-color: #424242;
+}
+
+#subscribe-btn {
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#subscribe-btn:hover {
+    background-color: #c9c9c9;
+}
+
+#channel-links {
+    display: flex;
+    gap: 20px;
+}
+
+#like {
+    display: flex;
+    background-color: #303030;
+    border-radius: 20px;
+    color: #ffff;
+    align-items: center;
+}
+
+#icon-like {
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+#icon-like:hover {
+    background-color: #424242;
+    border-radius: 20px;
+}
+
+#icon-deslike {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#icon-deslike:hover {
+    background-color: #424242;
+    border-radius: 20px;
+}
+
+#share {
+    padding: 10px 10px;
+    background-color: #303030;
+    color: #ffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#share:hover {
+    background-color: #424242;
+}
+
+#more-options {
+    padding: 10px 10px;
+    background-color: #303030;
+    color: #ffff;
+    border-radius: 110%;
+    cursor: pointer;
+}
+
+#more-options:hover {
+    background-color: #424242;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.videos img {
+    border-radius: 20px;
+}
+
+#related-videos {
+    padding-left: 20px;
+}
+
+.related-videos-title {
+    font-size: 16px;
+    color: #ffff;
+    margin-bottom: 7px;
+}
+
+.related-videos-channel {
+    color: #c9c9c9;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.related-videos-stats {
+    color: #c9c9c9;
+    font-size: 14px;
+}
+
+.related-videos-date {
+    color: #c9c9c9;
+    font-size: 14px;
+}
